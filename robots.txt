@@ -1,0 +1,10 @@
+# All GitHub Pages sites under tashicorp.github.io are private prototypes.
+# They are served publicly because GitHub Pages on a public repo has no access
+# control, but they are not intended to be indexed.
+#
+# This file must live in the USER-SITE repo (tashicorp.github.io) to take
+# effect: crawlers only read robots.txt at the domain root, so a copy in a
+# project repo would serve at /<project>/robots.txt and be ignored.
+
+User-agent: *
+Disallow: /
